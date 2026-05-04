@@ -1,0 +1,13 @@
+TEST CASE 1: Valid Login
+Steps:
+1. Enter valid email
+2. Enter vaild password
+3. Click login
+
+Expected: User is redirected to dashboard
+
+---
+
+Test case 2: Invalid Password
+Expected:
+Error message shown
