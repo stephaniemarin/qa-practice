@@ -1,0 +1,14 @@
+TEST PLAN: Login Feature
+
+Scope:
+- Validate login functionality
+
+Test Types:
+- Functional Testing
+- Negative Testing
+
+Environment:
+- Web application
+
+Tools:
+-Manual testing, GitHub
