@@ -1,0 +1,28 @@
+Feature: login Functionality
+
+Test Case ID: TC-001
+Title: Valid Login
+
+Precondition:
+User is on login page
+
+Steps:
+1. Enter username: standard_user
+2. Enter password: secret_sauce
+3. Click Login
+
+Expected Result: 
+User is redirected to inventory page
+
+ ---
+
+Test Case ID: TC-002
+Title: Invalid Password
+
+Steps:
+1. Enter valid username
+2. Enter wrong password
+3. Click Login
+
+Expected:
+Error message displayed

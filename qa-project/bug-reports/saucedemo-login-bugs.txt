@@ -1,0 +1,16 @@
+BUG ID: Bug-001
+Title: Locked user can attempt login
+
+Steps:
+1. Enter username: locked_out_user
+2. Enter password: secret_sauce
+3. Click login
+
+Actual:
+Error message shown "Epic sadface: Sorry, this user has been locked out"
+
+Expected: 
+USer should be prevented from loin attempt 
+
+Severity: Medium
+priority: High
