@@ -11,7 +11,7 @@ Steps:
 2. Enter password: secret_sauce
 3. Click Login
 
-Expected Result: 
+Expected Result:
 User is redirected to inventory page
 
  ---
