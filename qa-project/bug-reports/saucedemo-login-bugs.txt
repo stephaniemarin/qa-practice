@@ -10,7 +10,7 @@ Actual:
 Error message shown "Epic sadface: Sorry, this user has been locked out"
 
 Expected: 
-USer should be prevented from loin attempt 
+USer should be prevented from loin attempt
 
 Severity: Medium
 priority: High

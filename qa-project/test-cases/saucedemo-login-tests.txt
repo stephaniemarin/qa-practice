@@ -14,15 +14,33 @@ Steps:
 Expected Result:
 User is redirected to inventory page
 
+View - Evidence image: inventoryPage
+
  ---
 
 Test Case ID: TC-002
-Title: Invalid Password
+Title: Password required
 
 Steps:
 1. Enter valid username
-2. Enter wrong password
+2. Password field empty
 3. Click Login
 
 Expected:
-Error message displayed
+Error message: Password is required
+
+View - Evidence image: passwReq
+--- 
+
+Test Case ID: TC-003
+Title: User locked out
+
+Steps:
+1. Enter valid username
+2. Enter valid password
+3. Click Login
+
+Expected:
+Error message: User locked out
+
+View - Evidence image: userLockedO
