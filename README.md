@@ -46,8 +46,13 @@ This project demonstrates manual QA testing of the SauceDemo login functionality
 - Submitted Pull Request
 - Merged into main
 
-### Workflow
-- Created feature branch
-- Added test documentation
-- Submitted Pull Request
-- Merged into main branch
+## Evidence
+
+### Successful Login
+![Successful Login](qa-project/evidence/login-success-inventory-page.png)
+
+### Password Required Error
+![Password Error](qa-project/evidence/login-error-password-required.png)
+
+### Locked User Error
+![Locked User](qa-project/evidence/login-error-locked-user.png)
