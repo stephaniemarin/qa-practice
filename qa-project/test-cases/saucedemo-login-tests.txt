@@ -44,3 +44,9 @@ Expected:
 Error message: User locked out
 
 View - Evidence image: userLockedO
+
+---
+
+Test Case ID: TC-004
+
+Added edge case: empty username and password
