@@ -1,3 +1,0 @@
-QA Projects Notes
-- Test login
-- Validate errors
