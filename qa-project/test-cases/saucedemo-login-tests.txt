@@ -1,0 +1,46 @@
+Feature: login Functionality
+
+Test Case ID: TC-001
+Title: Valid Login
+
+Precondition:
+User is on login page
+
+Steps:
+1. Enter username: standard_user
+2. Enter password: secret_sauce
+3. Click Login
+
+Expected Result:
+User is redirected to inventory page
+
+View - Evidence image: inventoryPage
+
+ ---
+
+Test Case ID: TC-002
+Title: Password required
+
+Steps:
+1. Enter valid username
+2. Password field empty
+3. Click Login
+
+Expected:
+Error message: Password is required
+
+View - Evidence image: passwReq
+--- 
+
+Test Case ID: TC-003
+Title: User locked out
+
+Steps:
+1. Enter valid username
+2. Enter valid password
+3. Click Login
+
+Expected:
+Error message: User locked out
+
+View - Evidence image: userLockedO
