@@ -69,7 +69,7 @@ def test_whitespace_username():
     
     error_message = driver.find_element(By.CSS_SELECTOR,"[data-test='error']").text
     
-    assert "Username is required" in error_message
+    assert "Epic sadface: Username and password do not match any user in this service" in error_message
     
     driver.quit()
     
