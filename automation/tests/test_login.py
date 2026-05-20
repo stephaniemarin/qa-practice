@@ -1,8 +1,6 @@
 import sys
 from pathlib import Path
 
-import pytest
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
@@ -14,13 +12,6 @@ BASE_URL = "https://www.saucedemo.com/"
 #valid password
 VALID_PASSWORD = "secret_sauce"
 
-#create driver
-@pytest.fixture
-def driver():
-    browser = webdriver.Chrome()
-    browser.get(BASE_URL)
-    yield browser
-    browser.quit()
 
 def login(driver, username, password):
     driver.find_element(By.ID, "user-name").send_keys("username")
