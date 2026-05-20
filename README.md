@@ -36,6 +36,7 @@ qa-practice/
 │   ├── bug-reports/
 │   └── evidence/
 └── automation/
+    ├── conftest.py
     ├── requirements.txt
     ├── tests/
     │   └── test_login.py
